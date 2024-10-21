@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f294db52-f6e8-4e85-a8dc-40ab3ef86219" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="87e1dce4-853c-4dfd-9c78-f98fb05b6af1" />
+  <component name="ProjectId" id="2ljGeSJRYciNXZkAPews0hmE9Wo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/LLaVA-Inference" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_vqa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Table-LLaVA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/llava/eval/model_vqa.py" />
+      <option name="PARAMETERS" value="--model-path ./table-llava-v1.5-7b --question-file ./LLaVA-Inference/MMTab-eval_test_data_49K_llava_jsonl_format.jsonl --image-folder ./LLaVA-Inference/all_test_image --answers-file ./eval_results/answers/1.jsonl --num-chunks 1 --chunk-idx 0 --temperature 0 --conv-mode vicuna_v1" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Table-LLaVA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="table_llava_inference.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/v1_5/table_llava_scripts/table_llava_inference.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/v1_5/table_llava_scripts" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.model_vqa" />
+      <item itemvalue="Shell Script.table_llava_inference.sh" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.model_vqa" />
+        <item itemvalue="Shell Script.table_llava_inference.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f294db52-f6e8-4e85-a8dc-40ab3ef86219" name="Default Changelist" comment="" />
+      <created>1725686166770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725686166770</updated>
+      <workItem from="1725686169436" duration="53097000" />
+      <workItem from="1726214667738" duration="7207000" />
+      <workItem from="1726879057976" duration="13722000" />
+      <workItem from="1727066857435" duration="58478000" />
+      <workItem from="1728530911014" duration="3034000" />
+      <workItem from="1729077559049" duration="1104000" />
+      <workItem from="1729480699234" duration="483000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="334" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1727570647022">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state x="263" y="-869" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.38.1512.944/-161.-1055.1920.1055@-161.-1055.1920.1055" timestamp="1725688193455" />
+    <state x="334" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.38.1512.944@0.38.1512.944" timestamp="1727570647022" />
+    <state x="519" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1729480730352">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state x="519" y="315" key="#com.intellij.fileTypes.FileTypeChooser/0.38.1512.944@0.38.1512.944" timestamp="1729480730352" />
+    <state x="501" y="-916" key="#model_vqa" timestamp="1725686729938">
+      <screen x="-161" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="501" y="-916" key="#model_vqa/0.38.1512.944/-161.-1055.1920.1055@-161.-1055.1920.1055" timestamp="1725686729938" />
+    <state x="100" y="137" width="1312" height="745" key="DiffContextDialog" timestamp="1727487275389">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state x="100" y="137" width="1312" height="745" key="DiffContextDialog/0.38.1512.944@0.38.1512.944" timestamp="1727487275389" />
+    <state width="1470" height="226" key="GridCell.Tab.0.bottom" timestamp="1729133902384">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state width="1878" height="297" key="GridCell.Tab.0.bottom/0.38.1512.944/-161.-1055.1920.1055@-161.-1055.1920.1055" timestamp="1725688657210" />
+    <state width="1470" height="226" key="GridCell.Tab.0.bottom/0.38.1512.944@0.38.1512.944" timestamp="1729133902384" />
+    <state width="1470" height="226" key="GridCell.Tab.0.center" timestamp="1729133902383">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state width="1878" height="297" key="GridCell.Tab.0.center/0.38.1512.944/-161.-1055.1920.1055@-161.-1055.1920.1055" timestamp="1725688657210" />
+    <state width="1470" height="226" key="GridCell.Tab.0.center/0.38.1512.944@0.38.1512.944" timestamp="1729133902383" />
+    <state width="1470" height="226" key="GridCell.Tab.0.left" timestamp="1729133902383">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state width="1878" height="297" key="GridCell.Tab.0.left/0.38.1512.944/-161.-1055.1920.1055@-161.-1055.1920.1055" timestamp="1725688657205" />
+    <state width="1470" height="226" key="GridCell.Tab.0.left/0.38.1512.944@0.38.1512.944" timestamp="1729133902383" />
+    <state width="1470" height="226" key="GridCell.Tab.0.right" timestamp="1729133902384">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state width="1878" height="297" key="GridCell.Tab.0.right/0.38.1512.944/-161.-1055.1920.1055@-161.-1055.1920.1055" timestamp="1725688657210" />
+    <state width="1470" height="226" key="GridCell.Tab.0.right/0.38.1512.944@0.38.1512.944" timestamp="1729133902384" />
+    <state width="1470" height="293" key="GridCell.Tab.1.bottom" timestamp="1728533513050">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state width="1878" height="297" key="GridCell.Tab.1.bottom/0.38.1512.944/-161.-1055.1920.1055@-161.-1055.1920.1055" timestamp="1725688657211" />
+    <state width="1470" height="293" key="GridCell.Tab.1.bottom/0.38.1512.944@0.38.1512.944" timestamp="1728533513050" />
+    <state width="1470" height="293" key="GridCell.Tab.1.center" timestamp="1728533513050">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state width="1878" height="297" key="GridCell.Tab.1.center/0.38.1512.944/-161.-1055.1920.1055@-161.-1055.1920.1055" timestamp="1725688657211" />
+    <state width="1470" height="293" key="GridCell.Tab.1.center/0.38.1512.944@0.38.1512.944" timestamp="1728533513050" />
+    <state width="1470" height="293" key="GridCell.Tab.1.left" timestamp="1728533513049">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state width="1878" height="297" key="GridCell.Tab.1.left/0.38.1512.944/-161.-1055.1920.1055@-161.-1055.1920.1055" timestamp="1725688657211" />
+    <state width="1470" height="293" key="GridCell.Tab.1.left/0.38.1512.944@0.38.1512.944" timestamp="1728533513049" />
+    <state width="1470" height="293" key="GridCell.Tab.1.right" timestamp="1728533513050">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state width="1878" height="297" key="GridCell.Tab.1.right/0.38.1512.944/-161.-1055.1920.1055@-161.-1055.1920.1055" timestamp="1725688657211" />
+    <state width="1470" height="293" key="GridCell.Tab.1.right/0.38.1512.944@0.38.1512.944" timestamp="1728533513050" />
+    <state x="265" y="145" key="SettingsEditor" timestamp="1727572101816">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state x="265" y="145" key="SettingsEditor/0.38.1512.944@0.38.1512.944" timestamp="1727572101816" />
+    <state x="0" y="38" width="1470" height="576" key="dock-window-1" timestamp="1727570104657">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state x="0" y="38" width="1470" height="576" key="dock-window-1/0.38.1512.944@0.38.1512.944" timestamp="1727570104657" />
+    <state x="659" y="184" width="602" height="735" key="find.popup" timestamp="1727568059863">
+      <screen x="0" y="38" width="1512" height="944" />
+    </state>
+    <state x="498" y="-896" width="602" height="735" key="find.popup/0.38.1512.944/-161.-1055.1920.1055@-161.-1055.1920.1055" timestamp="1725686650586" />
+    <state x="659" y="184" width="602" height="735" key="find.popup/0.38.1512.944@0.38.1512.944" timestamp="1727568059863" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/llava/model/llava_arch.py</url>
+          <line>265</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/llava/model/builder.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/llava/model/multimodal_projector/builder.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fastV/modeling_llama.py</url>
+          <line>730</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/llava/model/language_model/llava_llama.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py</url>
+          <line>819</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py</url>
+          <line>685</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py</url>
+          <line>707</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/llava/train/train.py</url>
+          <line>784</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Table_LLaVA$model_vqa.coverage" NAME="model_vqa Coverage Results" MODIFIED="1727715717124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/Table_LLaVA$test.coverage" NAME="test Coverage Results" MODIFIED="1729077835171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
