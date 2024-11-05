@@ -34,10 +34,10 @@ def eval_model(args):
     model_path = os.path.expanduser(args.model_path)
     model_name = get_model_name_from_path(model_path)
     tokenizer, model, image_processor, context_len = load_pretrained_model(model_path, args.model_base, model_name,
-                                                                           # load_4bit=True,
+                                                                           load_4bit=True,
                                                                            device_map="auto" if device == "cuda" else "cpu",
                                                                            device=device,
-                                                                           mm_projector_type=args.project_type
+                                                                           # mm_projector_type=args.project_type
                                                                            )
     
     # questions = json.load(open(os.path.expanduser(args.question_file)))
@@ -47,7 +47,7 @@ def eval_model(args):
     answers_file = os.path.expanduser(args.answers_file)
     os.makedirs(os.path.dirname(answers_file), exist_ok=True)
     ans_file = open(answers_file, "w")
-    for idx, line in tqdm(enumerate(questions)):
+    for i, line in tqdm(enumerate(questions)):
         idx = line["question_id"]
         image_file = line["image"]
         qs = line["text"]
@@ -85,7 +85,7 @@ def eval_model(args):
                 top_p=args.top_p,
                 num_beams=args.num_beams,
                 # no_repeat_ngram_size=3,
-                max_new_tokens=1024,
+                max_new_tokens=256,
                 use_cache=True)
         
         input_token_len = input_ids.shape[1]
@@ -106,6 +106,8 @@ def eval_model(args):
                                    "model_id": model_name,
                                    "metadata": {},
                                    "category": line['category']}) + "\n")
+        
+        if i < 5: print(idx, " ==== ", outputs, "\n")
         ans_file.flush()
     ans_file.close()
 

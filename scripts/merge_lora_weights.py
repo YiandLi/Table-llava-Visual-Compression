@@ -13,10 +13,16 @@ def merge_lora(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, required=True)
+    parser.add_argument("--model-path", type=str, required=True) #
     parser.add_argument("--model-base", type=str, required=True)
     parser.add_argument("--save-model-path", type=str, required=True)
 
     args = parser.parse_args()
 
     merge_lora(args)
+
+"""
+--model-path checkpoints/llava-v1.5-7b-sft-with-table-finetune_lora \
+--model-base model_ckpt/vicuna \
+--save-model-path checkpoints/merged_llava
+"""
